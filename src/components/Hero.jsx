@@ -5,6 +5,18 @@ import profileImg from '../assets/profile.jpg';
 export default function Hero() {
   return (
     <section className="hero">
+      <div className="hero-decorations">
+        <motion.div 
+          className="blob blob-1"
+          animate={{ x: [0, 50, 0], y: [0, 100, 0] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+        />
+        <motion.div 
+          className="blob blob-2"
+          animate={{ x: [0, -70, 0], y: [0, -50, 0] }}
+          transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+        />
+      </div>
       <div className="hero-bg">
         <motion.div 
           className="hero-bg-txt"

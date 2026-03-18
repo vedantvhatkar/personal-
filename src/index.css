@@ -38,6 +38,38 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;align-items:cen
 .hero{min-height:100vh;display:grid;grid-template-columns:1fr auto;gap:0;padding:8rem 4rem 4rem;border-bottom:1px solid var(--border);position:relative;overflow:hidden;align-items:center;}
 .hero-bg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;user-select:none;z-index:0;}
 .hero-bg-txt{font-family:var(--head);font-size:clamp(10rem,20vw,22rem);font-weight:900;color:rgba(255,255,255,0.015);white-space:nowrap;}
+
+.hero-decorations {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.15;
+}
+
+.blob-1 {
+  background: var(--gold);
+  top: -100px;
+  right: -100px;
+}
+
+.blob-2 {
+  background: var(--teal);
+  bottom: -150px;
+  left: -150px;
+}
+
 .hero-left{grid-column:1;z-index:2;display:flex;flex-direction:column;justify-content:center;}
 .hero-eyebrow{font-family:var(--mono);font-size:0.67rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);margin-bottom:1.4rem;display:flex;align-items:center;gap:1rem;}
 .hero-eyebrow::before{content:'';width:2.5rem;height:1px;background:var(--gold);display:inline-block;}
