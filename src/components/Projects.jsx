@@ -22,7 +22,7 @@ export default function Projects() {
     {
       type: { text: "Research · Security", icon: <Bug size={14} className="icon-sm" style={{marginRight: 4}}/> },
       name: "Bug Bounty Research",
-      desc: "Active participation in responsible disclosure programs globally. 109 pending validations, 9 Hall of Fames and growing. Specialising in web application vulnerabilities."
+      desc: "Active participation in responsible disclosure programs globally. 109 pending validations, 13 Hall of Fames and growing. Specialising in web application vulnerabilities."
     }
   ];
 

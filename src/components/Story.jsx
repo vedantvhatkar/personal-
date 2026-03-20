@@ -36,7 +36,7 @@ export default function Story() {
             {
               icon: <Trophy size={22} />,
               title: "Security Researcher",
-              desc: "9 Hall of Fames. Acknowledged by the Government of India and 8 organisations worldwide."
+              desc: "13 Hall of Fames. Acknowledged by the Government of India and 8 organisations worldwide."
             },
             {
               icon: <TrendUp size={22} />,
